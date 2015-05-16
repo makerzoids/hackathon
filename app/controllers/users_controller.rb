@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
   def index
-    console    
+
   end
+
+  def show
+  end
+
+
 end
