@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
   def index
-    console     
+    console    
   end
 end
