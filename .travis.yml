@@ -3,6 +3,7 @@ rvm:
 - 2.2.0
 script:
   # - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bin/rake db:migrate RAILS_ENV=test
   - bundle exec rake
 before_script:
   - psql -c 'create database hackathon_test;' -U postgres
